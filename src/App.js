@@ -18,6 +18,8 @@ function App() {
         >
           Learn React
         </a>
+        <h1>this is something else...</h1>
+        <h1>you mobile bro?</h1>
       </header>
     </div>
   );
