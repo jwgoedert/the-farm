@@ -1,4 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Development
+yarn build
+firebase serve (for local)
+firebase deploy (for live)
 
 ## Available Scripts
 

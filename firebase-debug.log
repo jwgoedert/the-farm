@@ -1,0 +1,25 @@
+[debug] [2019-09-29T20:53:43.169Z] ----------------------------------------------------------------------
+[debug] [2019-09-29T20:53:43.171Z] Command:       /Users/jwgoedert/.nvm/versions/node/v8.11.4/bin/node /Users/jwgoedert/.nvm/versions/node/v8.11.4/bin/firebase serve
+[debug] [2019-09-29T20:53:43.171Z] CLI Version:   7.4.0
+[debug] [2019-09-29T20:53:43.171Z] Platform:      darwin
+[debug] [2019-09-29T20:53:43.171Z] Node Version:  v8.11.4
+[debug] [2019-09-29T20:53:43.171Z] Time:          Sun Sep 29 2019 15:53:43 GMT-0500 (CDT)
+[debug] [2019-09-29T20:53:43.171Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-09-29T20:53:43.180Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-09-29T20:53:43.181Z] > authorizing via signed-in user
+[debug] [2019-09-29T20:53:43.181Z] [iam] checking project the-farm-fa2a1 for permissions ["firebase.projects.get"]
+[debug] [2019-09-29T20:53:43.183Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/the-farm-fa2a1:testIamPermissions  
+
+[debug] [2019-09-29T20:53:43.559Z] <<< HTTP RESPONSE 200
+[debug] [2019-09-29T20:53:43.561Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/the-farm-fa2a1  
+ 
+[debug] [2019-09-29T20:53:43.950Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/jwgoedert/Desktop/Learning/React/the-farm'...
+[info] 
+[debug] [2019-09-29T20:53:43.952Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/the-farm-fa2a1/webApps/-/config  
+ 
+[debug] [2019-09-29T20:53:44.698Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: build
+[info] ✔  hosting: Local server: http://localhost:5000
